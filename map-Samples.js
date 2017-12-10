@@ -20,7 +20,7 @@ var doubled = numbers.map(function(number){
 
 console.log(doubled);
 
-// More complex Example
+// More complex Example 'pluck'-ing a property from an array
 
 var cars = [
   { model: 'Buick', price: 'CHEAP' },
