@@ -59,10 +59,9 @@ const MathLibrary = {
     return a * b;
   }
 };
+
 //people want you to change the name at a later point - you could just change it
 //but others using your library will have broken apps if you deploy changes to library
-
-//
 const MathLibrary = {
   calculateProduct(...rest){ //rest operator
     console.log('Please use the multiply method instead');
